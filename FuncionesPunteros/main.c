@@ -13,7 +13,7 @@ int main()
 
     PonerEnCero(&edadDos);
     printf("%d\n",edadDos);
-    //Intercambiar(edadUno,edadDos); // pasaje por valor
+    //Intercambiar(edadUno,edadDos); // pasaje por valor // no intercambia en el main
     IntercambiarConPunteros(&edadUno,&edadDos); // pasaje por referencia
     printf("\nEdadUno: %d",edadUno);
     printf("\nEdadDos: %d",edadDos);
